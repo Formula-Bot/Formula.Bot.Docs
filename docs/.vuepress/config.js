@@ -31,7 +31,7 @@ module.exports = {
   themeConfig: {
     repo: repository,
     editLinks: true,
-    docsDir: '',
+    docsDir: 'docs',
     docsBranch: 'main',
     editLinkText: '',
     lastUpdated: false,
