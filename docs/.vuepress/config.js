@@ -32,6 +32,7 @@ module.exports = {
     repo: repository,
     editLinks: true,
     docsDir: '',
+    docsBranch: 'main',
     editLinkText: '',
     lastUpdated: false,
     displayAllHeaders: true,
