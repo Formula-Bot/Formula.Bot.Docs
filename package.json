@@ -1,0 +1,19 @@
+{
+  "name": "formula-bot-docs",
+  "version": "0.0.1",
+  "description": "Documentation for the opensource Formula Discord bot.",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "https://github.com/Formula-Bot/Formula.Bot.Docs",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
