@@ -34,10 +34,21 @@ module.exports = {
     docsDir: 'docs',
     docsBranch: 'main',
     editLinkText: '',
-    lastUpdated: false,
+    lastUpdated: true,
     displayAllHeaders: true,
     nav: [],
-    sidebar: [['/', 'Get started'], '/plugins'],
+    sidebar: [
+      {
+        link: '/',
+        text: 'Get Started',
+      },
+      {
+        isGroup: true,
+        link: '/plugins/',
+        text: 'Plugins',
+        children: ['/plugins/index.md', '/plugins/development.md', '/plugins/configuration.md'],
+      },
+    ],
   },
 
   /**
@@ -45,7 +56,7 @@ module.exports = {
    */
   plugins: [
     [
-      '@vuepress/docsearch',
+      '@vuepress/plugin-docsearch',
       {
         apiKey: '3661d0e852436807f87140543209a474',
         indexName: 'formula-bot',
