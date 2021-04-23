@@ -1,4 +1,4 @@
-const { description, repository } = require('../../package')
+const { description, repository } = require('../../package');
 
 module.exports = {
   /**
@@ -20,7 +20,7 @@ module.exports = {
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
   ],
 
   /**
@@ -37,10 +37,7 @@ module.exports = {
     lastUpdated: false,
     displayAllHeaders: true,
     nav: [],
-    sidebar: [
-      ['/', 'Get started'],
-      '/plugins'
-    ]
+    sidebar: [['/', 'Get started'], '/plugins'],
   },
 
   /**
@@ -49,5 +46,5 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-  ]
-}
+  ],
+};
