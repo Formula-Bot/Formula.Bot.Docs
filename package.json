@@ -12,7 +12,7 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
-  "license": "GPLv3",
+  "license": "GPL-3.0-only",
   "devDependencies": {
     "vuepress": "^1.5.3"
   }
